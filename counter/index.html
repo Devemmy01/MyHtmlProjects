@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="container counter-section">
+        <div class="row text-center">
+            <div class="col-md-3 counter-box">
+                <div class="icon-box"><i class="fa fa-code" aria-hidden="true"></i></div>
+                <p class="counter">700</p>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+
+            <div class="col-md-3 counter-box">
+                <div class="icon-box"><i class="fa fa-code" aria-hidden="true"></i></div>
+                <p class="counter">300</p>
+                <p>NUMBER OF WORKERS</p>
+            </div>
+
+            <div class="col-md-3 counter-box">
+                <div class="icon-box"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+                <p class="counter">500</p>
+                <p>AWARDS RECEIVED</p>
+            </div>
+
+            <div class="col-md-3 counter-box">
+                <div class="icon-box"><i class="fa fa-users" aria-hidden="true"></i></div>
+                <p class="counter">1000</p>
+                <p>USERS CONECTED</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------counter--------->
+    <script src="jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function( $ )
+        {
+            $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+            });
+        });
+    </script>
+    
+</body>
+</html>

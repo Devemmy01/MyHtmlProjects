@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(rgba(5, 5, 5, 0.24),rgba(5, 5, 5, 0.25)),url(lp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.counter-section{
+    margin: 10% auto;
+    color: #fff;
+}
+.icon-box{
+    border: 1px solid #fff;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transform: rotate(45deg);
+}
+.icon-box .fa{
+    font-size: 60px;
+    margin: 25px auto;
+    color: white;
+    transform: rotate(-45deg);
+}
+.counter{
+    font-size: 50px;
+}
+.counter-box.counter{
+    font-size: 80px;
+}
